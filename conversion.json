@@ -1,6 +1,9 @@
 {
-    "lb": { "kg": 0.453592 },
-    "kg": { "lb": 2.20462 },
-    "g": { "kg": 0.001 },
-    "kg": { "g": 1000 }
+    "1": {"from": "lb", "to": "kg", "factor": 0.453592},
+    "2": {"from": "kg", "to": "lb", "factor": 2.20462},
+    "3": {"from": "g", "to": "kg", "factor": 0.001},
+    "4": {"from": "kg", "to": "g", "factor": 1000},
+    "5": {"from": "feet", "to": "inch", "factor": 12},
+    "6": {"from": "feet", "to": "mile", "factor": 0.000189394},
+    "7": {"from": "feet", "to": "km", "factor": 0.0003048}
 }
